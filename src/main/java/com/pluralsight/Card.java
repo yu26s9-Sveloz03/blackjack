@@ -49,4 +49,8 @@ public class Card {
     public void flip(){
         faceUp = !faceUp;
     }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
 }
